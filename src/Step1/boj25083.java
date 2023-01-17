@@ -1,3 +1,4 @@
+package Step1;
 
 public class boj25083 {
     public static void main(String[] args) throws Exception {

@@ -2,13 +2,17 @@ package Step2;
 
 import java.util.Scanner;
 
-public class boj18108 {
+public class boj2753 {
     public static void main(String[] args) throws Exception {
 
         Scanner sc = new Scanner(System.in);
         int A = sc.nextInt();
 
-        System.out.println(A - 543);
+        if (A % 4 == 0 && A % 100 != 0 || A % 400 == 0) {
+            System.out.println("1");
+        } else {
+            System.out.println("0");
+        }
 
         sc.close();
     }

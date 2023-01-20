@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class boj2439 {
   public static void main(String[] args) throws Exception {
 
-    Scanner sc = new Scanner(System.in);
+    Scanner sc = new Scanner(System.in); // 다시
     int A = sc.nextInt();
     sc.close();
 
